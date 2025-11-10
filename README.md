@@ -35,7 +35,12 @@ Download the latest version from the [GitHub Releases](https://github.com/Kinevi
    - Intel Macs: `GraphXR Viewer-3.7.0.dmg`
    - Apple Silicon: `GraphXR Viewer-3.7.0-arm64.dmg`
 2. Open the DMG file and drag GraphXR Viewer to Applications
-3. Launch from Applications or Launchpad
+3. **If you see "GraphXR Viewer is damaged and can't be opened"**:
+   - Open Terminal
+   - Run: `xattr -cr "/Applications/GraphXR Viewer.app"`
+   - Try launching the app again
+   - Alternatively: Right-click the app → Open → Click "Open" in the security dialog
+4. Launch from Applications or Launchpad
 
 ### Linux
 1. Download the appropriate package:
@@ -63,10 +68,35 @@ Download the latest version from the [GitHub Releases](https://github.com/Kinevi
 
 ## System Requirements
 
-- **Operating System**: Windows 10 or later (64-bit)
+- **Operating System**: 
+  - Windows 10 or later (64-bit)
+  - macOS 10.12 or later
+  - Linux (64-bit)
 - **Memory**: 4 GB RAM minimum, 8 GB recommended
-- **Graphics**: DirectX 11 compatible graphics card
+- **Graphics**: DirectX 11 compatible graphics card (Windows) or OpenGL compatible (macOS/Linux)
 - **Storage**: 200 MB available space
+
+## Troubleshooting
+
+### macOS: "App is Damaged" Error
+
+If you encounter the "GraphXR Viewer is damaged and can't be opened" error on macOS:
+
+**Method 1: Remove Quarantine Attribute (Recommended)**
+1. Open Terminal
+2. Run: `xattr -cr "/Applications/GraphXR Viewer.app"`
+3. Launch the app again
+
+**Method 2: System Preferences**
+1. Go to **System Preferences** → **Security & Privacy** → **General**
+2. Click **"Open Anyway"** next to the GraphXR Viewer message
+
+**Method 3: Right-Click Method**
+1. Right-click on `GraphXR Viewer.app` in Applications
+2. Select **"Open"** from the context menu
+3. Click **"Open"** in the security dialog
+
+This error occurs because the app is not code-signed. The app is safe to use - macOS is just being cautious about unsigned applications.
 
 ## License
 
