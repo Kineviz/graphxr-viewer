@@ -168,4 +168,4 @@ Kineviz is the creator of GraphXR, a powerful platform for interactive graph vis
 
 ---
 
-Copyright © 2025 Kineviz, Inc. All rights reserved.
+Copyright © 2026 Kineviz, Inc. All rights reserved.
