@@ -1,21 +1,21 @@
 {
-  "version": "3.7.0",
-  "buildDate": "2025-11-10T22:13:45.153Z",
+  "version": "3.8.0",
+  "buildDate": "2026-04-20T18:20:32.509Z",
   "description": "GraphXR Viewer - Standalone viewer for GraphXR project files",
   "files": {
     "windows": {
-      "installer": "GraphXR Viewer Setup 3.7.0.exe",
-      "portable": "GraphXR Viewer-3.7.0-win.zip"
+      "installer": "GraphXR Viewer Setup 3.8.0.exe",
+      "portable": "GraphXR Viewer-3.8.0-win.zip"
     },
     "macOS": {
-      "dmg": "GraphXR Viewer-3.7.0.dmg",
-      "zip": "GraphXR Viewer-3.7.0-mac.zip",
-      "arm64_dmg": "GraphXR Viewer-3.7.0-arm64.dmg",
-      "arm64_zip": "GraphXR Viewer-3.7.0-arm64-mac.zip"
+      "arm64_zip": "GraphXR Viewer-3.8.0-arm64-mac.zip",
+      "arm64_dmg": "GraphXR Viewer-3.8.0-arm64.dmg",
+      "zip": "GraphXR Viewer-3.8.0-mac.zip",
+      "dmg": "GraphXR Viewer-3.8.0.dmg"
     },
     "linux": {
-      "appimage": "GraphXR Viewer-3.7.0-arm64.AppImage",
-      "deb": "graphxr-viewer_3.7.0_arm64.deb"
+      "appimage": "GraphXR Viewer-3.8.0-arm64.AppImage",
+      "deb": "graphxr-viewer_3.8.0_arm64.deb"
     }
   }
 }
