@@ -16,6 +16,9 @@
     "linux": {
       "appimage": "GraphXR Viewer-3.8.0-arm64.AppImage",
       "deb": "graphxr-viewer_3.8.0_arm64.deb"
+    },
+    "ipadOS": {
+      "ipa_development": "GraphXR-Viewer-3.8.0-iPad-Development.ipa"
     }
   }
 }

@@ -18,6 +18,11 @@ Download the latest binaries from the [GitHub Releases](https://github.com/Kinev
 - **appimage**: `GraphXR Viewer-3.8.0-arm64.AppImage`
 - **deb**: `graphxr-viewer_3.8.0_arm64.deb`
 
+### iPadOS (Development build)
+- **ipa**: `GraphXR-Viewer-3.8.0-iPad-Development.ipa` — requires Xcode or
+  Apple Configurator 2 to sideload; the iPad must be registered in the
+  Kineviz Apple Developer team. See README.md for detailed steps.
+
 ## Installation Instructions
 
 See [README.md](./README.md) for detailed installation and usage instructions.
